@@ -31,7 +31,7 @@ function add_yesterdays_markers(open_or_closed){
       ((''+month).length<2 ? '0' : '') + month + '-' +
       ((''+day).length<2 ? '0' : '') + day;
   var yesterday = output+'T00:00:00'
-  var yesterdays_cases = $.getJSON("http://data.kcmo.org/resource/jp4b-trjz.json?$where="+open_or_closed+"='"+yesterday+"'" 
+  var yesterdays_cases = $.getJSON("http://data.kcmo.org/resource/7at3-sxhp.json?$where="+open_or_closed+"='"+yesterday+"'" 
     , function(data){
       // console.log(data);
       // console.log(data.length);
