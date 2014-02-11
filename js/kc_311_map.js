@@ -41,10 +41,11 @@ function add_yesterdays_markers(open_or_closed){
       if (open_or_closed == 'closed_date'){
         $('#legend-newly-closed .value').html(data.length)
       }
-      // console.log(parseFloat(data[0].location_1.latitude), parseFloat(data[0].location_1.longitude));
 
       for (i in data){
-        markerLocation = new L.LatLng(parseFloat(data[i].location_1.latitude), parseFloat(data[i].location_1.longitude));
+        var latitude = data[i].address_with_geocode.latitude;
+        var longitude = data[i].address_with_geocode.longitude;
+        markerLocation = new L.LatLng(parseFloat(latitude), parseFloat(longitude));
         var marker = new L.Marker(markerLocation, {icon: marker_color}).bindPopup(data[i].case_summary+', '+data[i].creation_date);
         open_cases_list.push(marker);
       }
