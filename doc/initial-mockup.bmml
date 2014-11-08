@@ -1,0 +1,242 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="950" measuredH="1333" mockupW="883" mockupH="1254">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="509" y="176" w="-1" h="-1" measuredW="341" measuredH="21" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>FluShots%20-%20to%20find%20the%20nearest%20flue%20shot%20togo%20kcflushot.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VCurly" x="111" y="176" w="369" h="23" measuredW="180" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Message%20-%20from%20google%20doc%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="509" y="306" w="394" h="264" measuredW="317" measuredH="256" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>../../../../Downloads/311-map.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="638" y="210" w="-1" h="-1" measuredW="118" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Columbus%20Park</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::ComboBox" x="805" y="210" w="-1" h="-1" measuredW="98" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Water%20Dept</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="509" y="212" w="-1" h="-1" measuredW="122" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Filter%3A%20%20Neighborhood</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="767" y="212" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Type</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::VCurly" x="102" y="309" w="380" h="260" measuredW="180" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Map%20would%20contains%20311%20open%20and%20closed%20with%20in%20X%20number%20of%20days.%0A%20%0AWe%20will%20use%20different%20colored%20pins%20for%20the%20open/closed%20cases.%0A%20%0AIf%20map%20can%20get%20location%20of%20user%2C%20it%20will%20center%20the%20map%20to%20the%20location.</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::RadioButton" x="509" y="234" w="-1" h="-1" measuredW="165" measuredH="22" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Show%20my%20selected%20cases.</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Arrow" x="480" y="535" w="151" h="165" measuredW="150" measuredH="100" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="279" y="677" w="-1" h="-1" measuredW="192" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Clicking%20on%20pin%20brings%20up%20details%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::FieldSet" x="482" y="718" w="363" h="612" measuredW="200" measuredH="170" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Case%20ID%3A%202014128538</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::VCurly" x="91" y="718" w="384" h="568" measuredW="180" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Display%20the%20information%20from%20Kiva%20here%20formatted%20a%20bit%20nicer.%0A%20%0Ahttp%3A//webfusion.kcmo.org/coldfusionapps/ActionCenterRequest/CaseInfo.cfm%3FCaseID%3D2014128538</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::VCurly" x="82" y="223" w="398" h="44" measuredW="180" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Is%20there%20a%20way%20we%20can%20track%20the%20user%27s%20saved%20cases%20without%20having%20them%20create%20an%20account%3F%20%20Just%20save%20in%20a%20cookie%3F%0AThese%20may%20be%20two%20long%20to%20display%20horizontally%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Paragraph" x="102" y="79" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>The%20features%20are%20ones%20that%20a%20single%20page%20web%20site%20should%20beable%20to%20support.</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::SubTitle" x="509" y="124" w="-1" h="-1" measuredW="410" measuredH="35" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>32</size>
+        <text>Kansas%20City%20311%20Daily%20Brief</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="509" y="151" w="-1" h="-1" measuredW="196" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>As%20of%206am%20Monday%20April%2021%2C%202014</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::HelpButton" x="710" y="153" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="730" y="153" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CAll%20311</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::HelpButton" x="790" y="153" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Label" x="810" y="153" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter%20311</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::HelpButton" x="884" y="153" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="904" y="153" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>311%20App</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="509" y="661" w="-1" h="-1" measuredW="99" measuredH="26" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Other%20Sites%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Link" x="618" y="668" w="-1" h="-1" measuredW="81" measuredH="19" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Basic%20311%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Link" x="708" y="668" w="-1" h="-1" measuredW="125" measuredH="19" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>311%20Daily%20Call%20activity</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="840" y="668" w="-1" h="-1" measuredW="84" measuredH="19" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>data.kcmo.gov</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::RadioButton" x="492" y="1293" w="-1" h="-1" measuredW="170" measuredH="22" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20to%20my%20selected%20cases</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="565" y="597" w="-1" h="-1" measuredW="57" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Summary</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="645" y="597" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Current</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="705" y="597" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Yesterday</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="779" y="597" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Last%20Week</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="563" y="617" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Opened%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="563" y="637" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Closed</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="667" y="617" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="667" y="637" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="736" y="618" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="736" y="638" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="816" y="618" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Label" x="816" y="638" w="-1" h="-1" measuredW="23" measuredH="21" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>999</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Paragraph" x="491" y="722" w="350" h="566" measuredW="200" measuredH="80" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%0ADate%20Submitted%3A%2010/06/2014%0AStatus%3A%20OPEN%0ASummary%3A%20Parks%20Capital%20Project%20Referral%0ADescription%3A%20Comments%3A%20the%20sidewalk%20is%20blocked%20to%20anyone%20with%20wheels%20%28wheelchairs%2C%20strollers%29.%20a%20section%20of%20sidewalk%20is%20damaged%20and%20was%20filled%20with%20gravel%20the%20only%20way%20to%20get%20around%20it%20is%20via%20the%20street%20Attachment%3A%20No%0A%20%0ACase%20Notes%0ADate%3A%2010/24/2014%20%0AREFERRED%20TO%20NEIGHBORHOOD%20PRESERVATION%0ADescription%3A%20Per%20conversations%20between%20the%20Parks%20and%20Recreation%20%26%20Neighborhood%20Preservation%2C%20this%20case%20should%20be%20forward%20to%20Neighborhood%20Preservation%20for%20a%20resolution.%0A%20%0ADate%3A%2010/09/2014%20%0AREFERRED%20to%20Parks%20Capital%20Projects%0ADescription%3A%20Per%20Dave%20Burke%20%28P%20%26%20R%20Central%20District%20Area%20Superintendent%29%2C%20this%20request%20needs%20to%20be%20addressed%20by%20staff%20in%20Parks%20Planning%20%26%20Design%20Services.%20%20Case%20is%20being%20referred%20to%20them%20for%20review%20and%20response.%20%20%20TMBrucks%20%28P%20%26%20R%29%0A%20%0ADate%3A%2010/09/2014%20%0ARefer%20to%20Parks%20and%20Recreation%20Department%0ADescription%3A%20The%20road%20is%20designated%20as%20a%20boulevard%2C%20which%20places%20it%20in%20the%20jurisdiction%20of%20the%20Parks%20Dept.%20for%20sidewalk%20repairs.%0A%20%0ADate%3A%2010/06/2014%20%0A311%20web%20processed%0ADescription%3A%20CONTACT%20INFORMATION%0A%20%0ACategory/Service%3A%20Streets%2C%20Sidewalks%2C%20Right%20of%20Way%20/%20Sidewalk%20Blocked%0A%20%0A%20%0A%20%0A%20%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::VCurly" x="82" y="599" w="398" h="44" measuredW="180" measuredH="140" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>I%20do%20not%20know%20if%20we%20can%20create%20all%20of%20these%20summary%20stats%20using%20the%20Sacrata%20API%20in%20a%20timely%20fashion.%20%20If%20not%20we%20will%20drop%20them%20for%20now.</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="565" y="570" w="-1" h="-1" measuredW="152" measuredH="21" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cases%20in%20the%20past%20X%20days.</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::ComboBox" x="667" y="238" w="237" h="-1" measuredW="172" measuredH="62" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Open/Closed%20Yestarday%0AOpen/Closed%20for%20the%20past%203%20days%0AOpen/Closed%20for%20the%20past%207%20days</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::VCurly" x="67" y="1289" w="398" h="44" measuredW="180" measuredH="140" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Is%20there%20a%20way%20we%20can%20track%20the%20user%20without%20having%20them%20creat%20an%20account%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Link" x="756" y="1302" w="-1" h="-1" measuredW="80" measuredH="19" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Reurn%20to%20map</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Link" x="756" y="731" w="-1" h="-1" measuredW="80" measuredH="19" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Reurn%20to%20map</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
