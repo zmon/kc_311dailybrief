@@ -21,6 +21,8 @@ This a HTML/CSS/JavaScript web application.
 
 The list of [beginner friendly](https://github.com/codeforkansascity/kc_311dailybrief/issues?labels=beginner+friendly&page=1&state=open) issues is a great place to start!
 
+We sort the importance of our issues using the star labels. [Three stars](https://github.com/codeforamerica/bizfriendly-web/issues?labels=%E2%98%85%E2%98%85%E2%98%85&page=1&state=open) are the most important issues.
+
 In the spirit of [free software][free-sw], **everyone** is encouraged to help
 improve this project.
 
