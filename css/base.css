@@ -1,26 +1,3 @@
-header{
-	background-color: #3498db;
-}
-
-/*#legend{
-	background-color: #e67e22;
-}*/
-
-#legend-newly-opened{
-	float:left;
-	padding: 0px;
-}
-
-#legend-newly-closed{
-	float: right;
-}
-
-
-#map {
-	height: 650px;
-	width: 100%;
-}
-
 /* Copyright (C) 2012, Code for America
  * This is open source software, released under a standard 2-clause
  * BSD-style license; see the file LICENSE for details.
@@ -36,26 +13,35 @@ html, body {
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-li.capitalize {text-transform:capitalize;}
+li.capitalize {
+  text-transform:capitalize;
+}
 
-header {
+/* Header ID */
+
+#header{
+	background-color: #3498db;
+}
+
+#header {
 	height: 68px;
 	background: #e14747;
 	display: block;
 }
 
-header img {
+#header img {
   padding: 15px 7px 0 2.5%;
   float: left;
 }
-header img.beta {
+
+#header img.beta {
   float:left;
   position:relative;
   top:-10px;
   left:-55px;
 }
 
-header p {
+#header p {
 	color: #ffffff;
 	float: left;
 	font-size: 110%;
@@ -63,19 +49,18 @@ header p {
 	margin: 0px 0px 0px -80px;
 }
 
-header img.labslogo {
+#header img.labslogo {
   float: right;
   padding: 0px 2.5%;
   margin-top: 10px;
-
 }
 
-header a {
+#header a {
   color: #000000;
   text-decoration: none;
 }
 
-header a:hover {
+#header a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
@@ -84,57 +69,55 @@ header a:hover {
   clear: both;
 }
 
+/* Map ID */
+
 #map {
 	position: absolute;
 	left: 0;
 	top: 68px;
 	right: 0;
 	bottom: 0;
+	max-width: 100%;
+	z-index: -1;
 }
+
+/* Legend ID */
 
 #legend {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 5;
-  width: 100%;
   background: white;
-  box-shadow: 0px 0px 10px #444;
+  box-shadow: 0px 0px 5px #444;
 }
 
-#legend > section {
-  float: left;
-  width: 20%;
-  padding: 0 2.5%;
+.row {
+  margin-left: 0px !important;
+  margin-right: opx !important;
 }
 
-#legend section#legend-info h1 {
+.legend-newly-opened{
+	float:left;
+}
+
+.legend-newly-closed{
+	float: right;
+}
+
+.legend-info h1 {
   text-transform: uppercase;
   font-size: 200%;
   margin: 21px 0px 0px 0px;
 }
 
-#legend section#legend-info p {
+.legend-info p {
   font-size: 90%;
   margin: 0px 0px 25px 0px;
   line-height: 140%;
 }
 
-#legend section#legend-info a {
-  color: #000000;
-  text-decoration: none;
-}
-
-#legend section#legend-info a:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-
-#legend section.legend-status {
+.legend-status {
   color: #666;
 }
 
-#legend section.legend-status h1 {
+.legend-status h1 {
   text-transform: uppercase;
   border-bottom:1px solid #888;
   font-size: 110%;
@@ -142,56 +125,54 @@ header a:hover {
   margin-bottom: 5px;
 }
 
-#legend section.legend-status p {
+.legend-status p {
   padding-top: 0px;
   margin-top:5px;
 }
 
-#legend section.legend-status p span.value {
+.legend-status p span.value {
   font-size: 250%;
   font-weight: bold;
 }
 
-#legend section#legend-open.active * {
+.legend-open.active * {
   color: #e14747;
   border-color: #e14747;
 }
 
-#legend section#legend-open.active .display-max {
+.legend-open.active .display-max {
   margin-top: -15px;
   font-size: 75%
 }
 
-#legend section#legend-newly-opened.active * {
+.legend-newly-opened.active * {
   color: orange;
   border-color: orange;
 }
 
-#legend section#legend-newly-closed.active * {
+.legend-newly-closed.active * {
   color: #114ab1;
   border-color: #114ab1;
 }
 
 @media only screen and (max-width: 960px) and (min-width: 551px) {
 
-  section#legend-open {
+  .legend-open {
     clear: left;
   }
 
-  section#legend-info {
-    width: 95%;
+  .legend-info {
     padding: 0 2.5%;
   }
 
-  section#legend-open,
-  section#legend-newly-opened,
-  section#legend-newly-closed {
-    width: 28.33333%;
+  .legend-open,
+  .legend-newly-opened,
+  .legend-newly-closed {
     padding: 0 2.5%;
   }
 
 
-  #legend section#legend-info p {
+  .legend-info p {
     margin-bottom: 0;
     display: inline;
   }
@@ -199,14 +180,14 @@ header a:hover {
 }
 
 @media only screen and (max-width: 700px) and (min-width: 601px) {
-  header p {
+  #header p {
     font-size: 90%;
     padding-top: 32px;
   }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 551px) {
-  header p {
+  #header p {
     font-size: 75%;
     padding-top: 34px;
 
@@ -214,17 +195,17 @@ header a:hover {
 }
 
 @media only screen and (max-width: 550px) {
-  header {
+  #header {
     text-align: center;
   }
 
-  header img {
+  #header img {
     margin: 0 auto;
     padding: 4px 0 0 0;
     float: none;
   }
 
-  header p {
+  #header p {
     margin: -5px auto 0;
     padding: 0px 0 0 0;
     float: none;
@@ -235,15 +216,10 @@ header a:hover {
 
   }
 
-  section#legend-newly-opened {
+  .legend-newly-opened {
     clear: left;
   }
 
-  #legend > section {
-    float: left;
-    width: 45%;
-    padding: 0 2.5%;
-  }
 }
 
 /* MAP CUSTOMIZATIONS */

@@ -15,20 +15,24 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- Mobile Specific Metas
-  ================================================== -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+  <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- CSS
-  ================================================== -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/base.css">
 
-  <!-- Favicons
-  ================================================== -->
+  <!-- Favicons -->
 
-
-  <!-- Leaflet
-  ================================================== -->
+  <!-- Leaflet -->
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
 </head>
 <body>
@@ -37,31 +41,40 @@
 
   <!-- Primary Page Layout
   ================================================== -->
-<header>
-  <a href=""><img src="images/daily_brief.png"></a>
-</header>
+<div class="container-fluid"
 
-<div id="map"></div>
+    <div class="row" id="header">
+      <a href=""><img src="images/daily_brief.png"></a>
+    </div>
 
-<div id="legend">
+    <div class="row" id="message">
+      <div class="alert alert-info" role="alert">Sample message to help the user navigate something.</div>
+    </div>
 
-  <section id="legend-info">
-    <h1>Kansas City</h1>
-    <!-- Changing the contents of the p tag will not change the tag file. 
-         Go instead to the config file to change the text. -->
-    <p></p>
-  </section>
+    <div class="row" id="filter"></div>
 
-  <section id="legend-newly-opened" class="legend-status active">
-    <h1>Opened Yesterday</h1>
-    <p><span class="value">0</span> requests</p>
-  </section>
+    <div class="row" id="map"></div>
 
-  <section id="legend-newly-closed" class="legend-status active">
-    <h1>Closed Yesterday</h1>
-    <p><span class="value">0</span> requests</p>
-  </section>
-  
+    <div class="row col-md-12" id="legend">
+
+      <div class="col-md-4 legend-info">
+        <h1>Kansas City</h1>
+        <!-- Changing the contents of the p tag will not change the tag file.
+             Go instead to the config file to change the text. -->
+        <p></p>
+      </div>
+
+      <div class="col-md-4 legend-status active legend-newly-opened">
+        <h1>Opened Yesterday</h1>
+        <p><span class="value">0</span> requests</p>
+      </div>
+
+      <div class="col-md-4 legend-status active legend-newly-closed">
+        <h1>Closed Yesterday</h1>
+        <p><span class="value">0</span> requests</p>
+      </div>
+
+    </div>
 </div>
 
   <!-- JS
@@ -69,7 +82,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
   <script src="js/kc_311_map.js"></script>
-  
+
 
 <!-- End Document
 ================================================== -->
